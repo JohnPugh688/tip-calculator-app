@@ -18,7 +18,7 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
-        font-size: 11px;
+        font-size: 14px;
         text-align: center;
       }
       .attribution a {
@@ -26,7 +26,7 @@
       }
     </style>
   </head>
-  <body class="bg-LightgrayishCyan font-SpaceMono">
+  <body class="bg-LightgrayishCyan md:mt-40 font-SpaceMono">
     <header
       class="flex justify-center tracking-[0.6rem] py-10 md:pb-20 font-semibold"
     >
@@ -59,9 +59,9 @@
             value="0"
           />
         </div>
-        <h3 class="text-GrayishYan font-semibold pt-4 md:pt-7 pb-4">
+        <h2 class="text-GrayishYan font-semibold pt-4 md:pt-7 pb-4">
           Select Tip %
-        </h3>
+        </h2>
 
         <div
           class="grid grid-cols-2 text-2xl grid-rows-3 md:grid-cols-3 md:grid-rows-2 gap-4"
@@ -102,7 +102,7 @@
             id="customTip"
             value="0"
             placeholder="Custom"
-            class="outline-none w-full rounded-md pr-4 font-semibold border-0 text-end focus-within:text-end bg-VeryLightGrayishCyan text-VeryDarkCyan placeholder:text-DarkGrayishCyan focus:ring-2 focus:ring-inset focus:ring-StrongCyan"
+            class="outline-none appearance-none w-full rounded-md pr-4 font-semibold border-0 text-end focus-within:text-end bg-VeryLightGrayishCyan text-VeryDarkCyan placeholder:text-DarkGrayishCyan focus:ring-2 focus:ring-inset focus:ring-StrongCyan"
           />
         </div>
         <div class="flex justify-between pt-8 md:pt-10 pb-2 items-center">
@@ -170,9 +170,12 @@
     <footer class="hidden md:block mt-10">
       <div class="attribution">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        <a
+          class="hover:underline"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">John Pugh</a>.
+        >. Coded by <a class="hover:underline" href="#">John Pugh</a>.
       </div>
     </footer>
     <script src="./index.js"></script>
